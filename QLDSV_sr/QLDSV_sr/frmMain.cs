@@ -58,6 +58,7 @@ namespace QLDSV_sr
                 frmLop f = new frmLop();
                 f.MdiParent = this;
                 f.Show();
+                Activate;
             }
         }
 
